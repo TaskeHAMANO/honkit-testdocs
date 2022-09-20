@@ -132,4 +132,4 @@ dist
 # honkit result
 _book/
 README.pdf
-manuscripts/section_*.md
+# manuscripts/section_*.md
