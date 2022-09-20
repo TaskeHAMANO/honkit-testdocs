@@ -1,0 +1,29 @@
+
+{
+    "root": "./manuscripts",
+    "language": "ja",
+    "title": "This is title",
+    "author": "Shinya Suzuki",
+    "plugins": [
+        "todo",
+        "block-align",
+        "intopic-toc",
+        "hints",
+        "include-codeblock",
+        "ace"
+    ],
+    "pluginsConfig" : {
+        "intopic-toc": {
+            "isCollapsed": false,
+            "label": {
+                "ja": "この記事の目次"
+            }
+        },
+        "include-codeblock": {
+            "template": "ace"
+        }
+    },
+    "pdf": {
+        "fontFamily": "UD Digi Kyokasho NK-R"
+    }
+}

@@ -1,0 +1,22 @@
+{
+  "name": "docs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "gh-pages -d _book"
+  },
+  "author": "Shinya Suzuki",
+  "license": "ISC",
+  "devDependencies": {
+    "gh-pages": "^4.0.0",
+    "gitbook-plugin-ace": "^0.3.2",
+    "gitbook-plugin-block-align": "^0.2.1",
+    "gitbook-plugin-hints": "^1.0.2",
+    "gitbook-plugin-include-codeblock": "^3.2.3",
+    "gitbook-plugin-intopic-toc": "^1.1.1",
+    "honkit": "^4.0.0",
+    "honkit-plugin-todo": "^1.0.0"
+  }
+}
